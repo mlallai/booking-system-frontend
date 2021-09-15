@@ -36,7 +36,7 @@ const Layout = ({children}) => {
                 </Typography>
                 <Box>
                   {
-                    isAuth ? (
+                    isAuth() ? (
                       <Fragment>
                         <Button onClick={handleLogout} color="default" variant="contained">
                           Logout
